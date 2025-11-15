@@ -1,0 +1,22 @@
+{
+  "name": "form-server",
+  "version": "1.0.0",
+  "description": "Simple Express server for serving HTML forms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1",
+    "joi": "^17.11.0",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["express", "node", "forms", "server"],
+  "author": "",
+  "license": "ISC"
+}
